@@ -2,6 +2,7 @@
 layout: post
 title:  "Purpose, Content, Design"
 date:   2017-11-21 00:00:00 -0500
+author: Mike Jandreau
 categories: video
 excerpt: You've finally decided that you want/need a website for your business, brand, or blog. Where do you go from there?
 featured_image: /assets/images/2013-01-29-Turning-Lead-into-Gold.png

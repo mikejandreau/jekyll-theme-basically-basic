@@ -1,0 +1,210 @@
+{
+  "basics": {
+    "name": "Mike Jandreau",
+    "label": "Web Developer & Graphic Designer",
+    "picture": "https://pbs.twimg.com/profile_images/418505216867053568/iaTjS1cK_400x400.jpeg",
+    "email": "mike@northeastcreativedesign.com",
+    "phone": "(207) 942-NOPE",
+    "website": "https://www.northeastcreativedesign.com/",
+    "summary": "I'm a bit of a Jack of all trades with a fairly diverse set of skills and interests. When I'm not designing and programming my way through life, I like to play guitar, read sci-fi books, and draw stupid comics.",
+    "location": {
+      "address": "123 Nope St",
+      "postalCode": "04401",
+      "city": "Bangor",
+      "countryCode": "US",
+      "region": "Maine"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "mikejandreau",
+        "url": "https://github.com/mikejandreau"
+      },
+      {
+        "network": "Twitter",
+        "username": "losaidos",
+        "url": "https://twitter.com/losaidos"
+      },
+      {
+        "network": "SoundCloud",
+        "username": "mikejandreau",
+        "url": "https://soundcloud.com/mikejandreau"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mikejandreau",
+        "url": "https://www.linkedin.com/in/mikejandreau/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Colby College",
+      "position": "Web Developer",
+      "website": "https://www.colby.edu/",
+      "startDate": "Sep 2017",
+      "endDate": "Present",
+      "summary": "Colby College is a private liberal arts college in Waterville, Maine. Approximately 1,800 students from more than 60 countries are enrolled annually. The college offers 54 major fields of study and 30 minors.",
+      "highlights": [
+        "Develop, document, support, and maintain websites and online tools",
+        "Integrate multimedia content into the Libraries' virtual presence",
+        " Maintain up-to-date knowledge of emerging web development technologies and apply them where appropriate"
+      ]
+    },
+    {
+      "company": "Losaidos Design",
+      "position": "Freelance Web Developer & Graphic Designer",
+      "website": "vhttp://losaidos.com/",
+      "startDate": "Jan 2012",
+      "endDate": "Present",
+      "summary": "Losaidos Design is a Maine based web and graphic design company, providing high quality multimedia design services.",
+      "highlights": [
+        "Build accessible websites with visual appeal that are easy to navigate",
+        "Meet clients to discuss project overview, budget, timeline, and deliverables",
+        "Create logos, business cards, letterhead, and other branding materials",
+        "Code designs into working websites using HTML5, CSS3, and JavaScript",
+        "Maintain backups and Git repositories for client sites"
+      ]
+    },
+    {
+      "company": "Pulse Marketing Agency",
+      "position": "Creative Director",
+      "website": "https://pulsemarketingagency.com/",
+      "startDate": "May 2016",
+      "endDate": "Sep 2017",
+      "summary": "Pulse is a full service marketing and advertising agency located in Bangor, ME, offering online marketing services including web design, SEO, & paid search.",
+      "highlights": [
+        "",
+        "Strategize brand development, website traffic growth, UI & UX",
+        "Record music and voiceovers for radio/TV ads",
+        "Shoot and edit video for web and broadcast",
+        "Product photo shoots and retouching",
+        "Quality check and validate code prior to site launch"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of the District of Columbia",
+      "area": "Studio Art w/focus in Graphic Design",
+      "studyType": "Bachelor",
+      "startDate": "Sep 2012",
+      "endDate": "Aug 2013",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Maine",
+      "area": "English",
+      "studyType": "Bachelor",
+      "startDate": "Sep 2002",
+      "endDate": "May 2006",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Maine Calling Theme Song Search",
+      "date": "June 20, 2018",
+      "awarder": "Maine Public",
+      "summary": "I wrote and recorded the new theme music for the radio program Maine Calling on Maine Public Radio. http://www.mainepublic.org/post/maine-calling-theme-song-search#stream/0"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web",
+      "level": "Experienced",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "SCSS",
+        "JavaScript",
+        "PHP",
+        "Gulp/Grunt",
+        "WordPress",
+        "Joomla",
+        "Drupal",
+        "Jekyll",
+        "Hugo"
+      ]
+    },
+    {
+      "name": "Graphic",
+      "level": "Experienced",
+      "keywords": [
+        "Freehand Drawing",
+        "Photography",
+        "Typography",
+        "Layout"
+      ]
+    },
+    {
+      "name": "Multimedia",
+      "level": "Experienced",
+      "keywords": [
+        "Animation",
+        "Video Editing",
+        "Audio Production",
+        "Game Development"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Nonsense",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Guitars",
+      "keywords": [
+        "Playing",
+        "Building/Modifying"
+      ]
+    },
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Gary Cohen",
+      "reference": "Mike can draw a recognizable Boba Fett in like, ten seconds. It's unreal."
+    },
+    {
+      "name": "John Q. Sample",
+      "reference": "I don't know how he does it, but Mike can eat a rack of ribs and then go for a 5 mile run. I freaking hate that guy."
+    }
+  ]
+}

@@ -14,5 +14,104 @@ layout: default
         {% include disqus_comments.html %}
       {% endif %}
     </article>
+
+
+
+
+
+
+
+
+
+<div class="share-bar">
+
+    <h4>Share this:</h4>
+
+    <div class="share-buttons">
+        <a class="button social-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Facebook"><span class="icon icon--facebook">{% include icon-facebook.svg %}</span> Facebook
+        </a>
+
+        <a class="button social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span> Twitter
+        </a>
+
+        <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Google+" ><span class="icon icon--googleplus">{% include icon-googleplus.svg %}</span> Google
+        </a>
+
+        <a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Pinterest" ><span class="icon icon--pinterest">{% include icon-pinterest.svg %}</span> Pinterest
+        </a>
+
+        <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Tumblr" ><span class="icon icon--tumblr">{% include icon-tumblr.svg %}</span> Tumblr
+        </a>
+
+        <a class="button social-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on LinkedIn"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span> LinkedIn
+        </a>
+
+        <a class="button social-email" href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            title="Share via Email"><span class="icon icon--email">{% include icon-email.svg %}</span> Email
+        </a>
+
+
+        {% comment %}
+        {% endcomment %}
+
+    </div>
+
+</div>
+
+
+
+<hr>
+
+<div class="post-navigation row">
+  {% if page.previous.url %}
+    <div class="column sm-6">
+        <div class="element-block">
+            <a href="{{page.previous.url}}"><img src="{{ page.previous.featured_thumb }}" alt="{{page.previous.title}}"/></a>
+            <h4><a href="{{page.previous.url}}">Previous Project: {{page.previous.title}}</a></h4>
+        </div>
+    </div>
+  {% endif %}
+  {% if page.next.url %}
+    <div class="column sm-6">
+        <div class="element-block">
+            <a href="{{page.next.url}}"><img src="{{ page.next.featured_thumb }}" alt="{{page.next.title}}"/></a>
+            <h4><a href="{{page.next.url}}">Next Project: {{page.next.title}}</a></h4>
+        </div>
+    </div>
+  {% endif %}
+</div>
+
+
+
+
+
+
+
+
+
+
+
   </div>
 </main>
+
+
+
+
+
+
+
+
+
+
