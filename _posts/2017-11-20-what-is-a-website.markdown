@@ -2,6 +2,7 @@
 layout: post
 title:  "What is a Website?"
 date:   2017-11-20 00:00:00 -0500
+author: Mike Jandreau
 categories: graphic
 excerpt: The most basic definition of a website is a document. The essential function of a website is no different than that of a book, magazine, or coffee shop cork board. 
 featured_image: /assets/images/2012-09-18-Abacus-Virus.png
