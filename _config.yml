@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
+title: Northeast Creative Design
 email:
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
@@ -23,8 +23,8 @@ author:
   name:
   twitter:
   picture:
-twitter_username:
-github_username:
+twitter_username: losaidos
+github_username: mikejandreau
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
@@ -47,7 +47,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 3
+paginate: 10
 paginate_path: /page:num/
 
 # Exclude from processing.
