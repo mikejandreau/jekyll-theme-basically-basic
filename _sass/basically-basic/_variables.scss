@@ -51,7 +51,9 @@ $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
 /* Colors */
 $base-color: #393e46 !default;
 $text-color: #181c22 !default;
-$accent-color: #00838a !default;
+$accent-color: #29526D !default;
+//#637b92
+//#29526D
 $background-color: #fff !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
@@ -85,7 +87,8 @@ $sidebar-width: $small !default;
 $sidebar-background-color: #fff !default;
 
 /* Intro image color overlay */
-$intro-image-color-overlay: false !default;
+// $intro-image-color-overlay: false !default;
+$intro-image-color-overlay: true;
 
 /* Border radius */
 $border-radius: 0.25em !default;
