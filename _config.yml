@@ -19,13 +19,13 @@ email:
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-author:
-  name:
-  twitter:
-  picture:
+author: 
+  name: Mike Jandreau
+  twitter: losaidos
+  picture: /assets/images/mikejandreau.jpg
 twitter_username: losaidos
 github_username: mikejandreau
-logo: # path of site logo, e.g. "/assets/images/logo.png"
+logo: /assets/images/logo.png # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
