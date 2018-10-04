@@ -64,3 +64,44 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// scrollup button 
+// --------------------------------------------------
+#scroll-to-top {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 5000;
+  cursor: pointer;
+  right: 20px;
+  bottom: 20px;
+  fill: tint($text-color, 25%);
+  transition: all .3s;
+  opacity: 0;
+  background: none; 
+
+  &:focus {
+    outline: none;
+  }
+}
