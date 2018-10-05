@@ -32,4 +32,8 @@
     {% endcomment %}
     {% include head-feed.html %}
   {% endif %}
+
+  {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="9; url=/">
+  {% endif %}
 </head>
