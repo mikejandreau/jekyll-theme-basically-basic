@@ -2,7 +2,6 @@
 layout: contact
 title: Contact
 sub_title: Contact info stuff
-image: https://via.placeholder.com/2100x900
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit tempore eos voluptas enim, alias vitae nemo ratione ipsam natus rem dicta fugiat animi optio, possimus maxime quibusdam in ducimus repudiandae.
