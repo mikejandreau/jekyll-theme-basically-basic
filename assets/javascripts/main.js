@@ -80,23 +80,6 @@ function toggleClassSearch() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
 * PAGE SCROLLING
 * Plain JavaScript internal anchor and top-of-page scrolling, no jQuery required
