@@ -5,8 +5,10 @@
 /* Breakpoint widths */
 $small: 320px !default;
 $medium: 768px !default;
-$large: 1024px !default;
-$xlarge: 1280px !default;
+$large: 992px !default;
+$xlarge: 1024px !default;
+// $large: 1024px !default;
+// $xlarge: 1280px !default;
 
 /* Fluid type */
 $base-font-size: 16px !default;
@@ -74,23 +76,41 @@ $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 $overlay-color: $base-color !default;
 
-/* Syntax highlighting (base16) colors */
-$base00: #1c2023 !default;
-$base01: #393f45 !default;
-$base02: #565e65 !default;
-$base03: #747c84 !default;
-$base04: #adb3ba !default;
-$base05: #c7ccd1 !default;
-$base06: #dfe2e5 !default;
-$base07: #f3f4f5 !default;
-$base08: #c7ae95 !default;
-$base09: #c7c795 !default;
-$base0a: #aec795 !default;
-$base0b: #95c7ae !default;
-$base0c: #95aec7 !default;
-$base0d: #ae95c7 !default;
-$base0e: #c795ae !default;
-$base0f: #c79595 !default;
+// /* Syntax highlighting (base16) colors */
+// $base00: #1c2023 !default;
+// $base01: #393f45 !default;
+// $base02: #565e65 !default;
+// $base03: #747c84 !default;
+// $base04: #adb3ba !default;
+// $base05: #c7ccd1 !default;
+// $base06: #dfe2e5 !default;
+// $base07: #f3f4f5 !default;
+// $base08: #c7ae95 !default;
+// $base09: #c7c795 !default;
+// $base0a: #aec795 !default;
+// $base0b: #95c7ae !default;
+// $base0c: #95aec7 !default;
+// $base0d: #ae95c7 !default;
+// $base0e: #c795ae !default;
+// $base0f: #c79595 !default;
+
+// Code highlighting 
+$base00: #2b303b; // black
+$base01: #343d46; // darkest gray
+$base02: #4f5b66; // darker gray
+$base03: #65737e; // dark gray
+$base04: #a7adba; // medium gray
+$base05: #c0c5ce; // light gray
+$base06: #dfe1e8; // lighter gray
+$base07: #eff1f5; // white
+$base08: #bf616a; // red
+$base09: #d08770; // orange
+$base0a: #ebcb8b; // yellow
+$base0b: #a3be8c; // green
+$base0c: #96b5b4; // blue
+$base0d: #8fa1b3; // indigo
+$base0e: #b48ead; // violet
+$base0f: #ab7967; // brown
 
 /* Max-width of the main content */
 $main-max-width: $xlarge !default;

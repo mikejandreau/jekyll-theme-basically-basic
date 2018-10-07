@@ -7,6 +7,13 @@ categories: video
 excerpt: You've finally decided that you want/need a website for your business, brand, or blog. Where do you go from there?
 featured_image: /assets/images/2013-01-29-Turning-Lead-into-Gold.png
 featured_thumb: /assets/images/2013-01-29-Turning-Lead-into-Gold.png
+actions:
+  - label: "Learn More"
+    icon: github  # references name of svg icon, see full list below
+    url: "http://url-goes-here.com"
+  - label: "Download"
+    icon: download  # references name of svg icon, see full list below
+    url: "http://url-goes-here.com"
 ---
 
 You've finally decided that you want/need a website for your business, brand, or blog. Where do you go from there?

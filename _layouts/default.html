@@ -10,6 +10,8 @@
 
   <body id="top" class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
 
+    <div id="ecwid_product_browser_scroller"></div>
+
     {% include skip-links.html %}
 
     <div class="sidebar-toggle-wrapper">
