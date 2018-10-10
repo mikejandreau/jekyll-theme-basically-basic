@@ -383,6 +383,92 @@ figure.highlight {
     .gs  { color: $base05; font-weight: bold; } // Generic.Strong 
 }
 
+
+$codeHeaderHeight: 40px;
+
+figure {
+  margin-top: 0;
+}
+
+[class*="code-"] {
+    position: relative;
+    // border-radius: $border_radius;
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+  padding-top: $codeHeaderHeight;
+
+    &:before {
+        // font-family: $font_family_mono;
+        // font-weight: $font_weight_mono;
+        display: block;
+        content: 'example';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        padding: 0 ($codeHeaderHeight / 2);
+        line-height: $codeHeaderHeight;
+        height: $codeHeaderHeight;
+        background: $base01;
+        color: $base07; // default color of code language title blocks
+    }
+
+    &[class*="-output"] {
+        background: #fff;
+        // background: $base07;
+        // border: 1px solid $base05;
+        // padding: ($codeHeaderHeight + $codeBlockPadding) $codeBlockPadding $codeBlockPadding;
+
+        &:before {
+            background: $base03;
+            content: 'Output';
+        }
+    }
+
+    &[class*="-js"]:before {
+        background: darken($base0a, 15%);
+        content: 'JavaScript';
+    }
+
+    &[class*="-jquery"]:before {
+        background: darken($base09, 5%);
+        content: 'jQuery';
+    }
+
+    &[class*="-html"]:before {
+        background: darken($base0d, 10%);
+        content: 'HTML';
+    }
+
+    &[class*="-scss"]:before {
+        background: darken($base0c, 10%);
+        content: 'SCSS';
+    }
+
+    &[class*="-php"]:before {
+        background: darken($base0e, 10%);
+        content: 'PHP';
+    }
+
+    &[class*="-ruby"]:before {
+        background: darken($base08, 5%);
+        content: 'Ruby';
+    }
+
+    &[class*="-css"]:before {
+        background: darken($base0b, 10%);
+        content: 'CSS';
+    }
+
+    &[class*="-python"]:before {
+        background: darken($base0c, 20%);
+        content: 'Python';
+    }
+}
+
+
 .gist {
   th, td {
     border-bottom: 0;
